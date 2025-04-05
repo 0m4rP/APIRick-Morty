@@ -5,4 +5,4 @@ Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-
 
 <p>se hace el consumo por pruebas y con el uso de bootstrap se hace la interfaz visual</p>
 
-<img src="page.png">
+<img src="public/page.png">
