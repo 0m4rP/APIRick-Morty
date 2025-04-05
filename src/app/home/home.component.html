@@ -1,0 +1,19 @@
+<app-header></app-header>
+
+<div class="row row-cols-1 row-cols-md-5 g-4" style="margin: auto;" >
+    <div class="col" *ngFor="let item of data">
+      <div class="card h-100" >
+        <img [src]="item.image" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{item.name}}</h5>
+          <p class="card-text">{{item.status}}</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">{{item.origin.name}}</small>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+<app-footer></app-footer>
